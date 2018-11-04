@@ -10,27 +10,28 @@
 package cn.osxm.dashx.module.base.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import cn.osxm.dashx.module.base.dao.ChartMapper;
 import cn.osxm.dashx.module.base.model.Chart;
 import cn.osxm.dashx.module.base.service.ChartServiceI;
 
 /**
-  * @ClassName: ChartService
-  * @Description: TODO
-  * @author xueming.chen
-  */
-
+ * @ClassName: ChartService
+ * @Description: TODO
+ * @author xueming.chen
+ */
+@Service
 public class ChartService implements ChartServiceI {
-	  public ChartMapper chartMapper;    
+	public ChartMapper chartMapper;
 
-	    @Autowired
-	    public void setChartMapper(ChartMapper chartMapper) {
-	      this.chartMapper = chartMapper;
-	    }
-	    
-	    public Chart getChart(long id) {
-	    	Chart chart = chartMapper.getChart(id);
-	    	return chart;
-	    }
+	@Autowired
+	public void setChartMapper(ChartMapper chartMapper) {
+		this.chartMapper = chartMapper;
+	}
+
+	public Chart getChart(long id) {
+		Chart chart = chartMapper.getChart(id);
+		return chart;
+	}
 }

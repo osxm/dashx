@@ -8,12 +8,15 @@
  */
 
 package cn.osxm.dashx.module.base.service;
+
+import cn.osxm.dashx.module.base.model.Chart;
+
 /**
-  * @ClassName: ChartServiceI
-  * @Description: TODO
-  * @author xueming.chen
-  */
+ * @ClassName: ChartServiceI
+ * @Description: TODO
+ * @author xueming.chen
+ */
 
 public interface ChartServiceI {
-
+	public Chart getChart(long id);
 }
