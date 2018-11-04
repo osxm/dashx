@@ -7,13 +7,13 @@
  * @version V1.0
  */
 
-package cn.oscar.dashx.module.base.service.impl;
+package cn.osxm.dashx.module.base.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import cn.oscar.dashx.module.base.dao.ChartMapper;
-import cn.oscar.dashx.module.base.model.Chart;
-import cn.oscar.dashx.module.base.service.ChartServiceI;
+import cn.osxm.dashx.module.base.dao.ChartMapper;
+import cn.osxm.dashx.module.base.model.Chart;
+import cn.osxm.dashx.module.base.service.ChartServiceI;
 
 /**
   * @ClassName: ChartService

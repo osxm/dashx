@@ -7,7 +7,7 @@
  * @version V1.0
  */
 
-package cn.oscar.dashx.module.base.model;
+package cn.osxm.dashx.module.base.model;
 
 /**
  * @ClassName: Chart

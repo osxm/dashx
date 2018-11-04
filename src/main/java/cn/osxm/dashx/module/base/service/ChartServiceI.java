@@ -7,7 +7,7 @@
  * @version V1.0
  */
 
-package cn.oscar.dashx.module.base.service;
+package cn.osxm.dashx.module.base.service;
 /**
   * @ClassName: ChartServiceI
   * @Description: TODO
